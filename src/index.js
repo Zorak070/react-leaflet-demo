@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import App from './App';
+import App2 from './App2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    {/*Uncomment App to see Local data from json file*/}
+
+    {/* <App /> */}
+
+    {/*Map from an  Api data in App2 */}
+    <App2 />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
